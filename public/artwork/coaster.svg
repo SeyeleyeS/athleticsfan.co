@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Four green and gold circles on cream paper">
+  <rect width="640" height="400" fill="#f3eee4"/>
+  <circle cx="180" cy="150" r="70" fill="#0f3d30"/>
+  <circle cx="300" cy="150" r="70" fill="#c6a15a"/>
+  <circle cx="180" cy="270" r="70" fill="#186348"/>
+  <circle cx="300" cy="270" r="70" fill="#8a6416"/>
+  <rect x="420" y="90" width="140" height="220" fill="none" stroke="#1c1915" stroke-width="6"/>
+</svg>

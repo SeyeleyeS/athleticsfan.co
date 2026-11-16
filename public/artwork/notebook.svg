@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="A cream notebook with a gold rule">
+  <rect width="640" height="400" fill="#e7dfd0"/>
+  <rect x="180" y="40" width="280" height="320" fill="#f7f3ea" stroke="#0f3d30" stroke-width="8"/>
+  <rect x="210" y="90" width="180" height="8" fill="#c6a15a"/>
+  <rect x="210" y="130" width="220" height="4" fill="#1c1915"/>
+  <rect x="210" y="160" width="220" height="4" fill="#1c1915"/>
+  <rect x="210" y="190" width="160" height="4" fill="#1c1915"/>
+</svg>
