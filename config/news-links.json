@@ -1,0 +1,160 @@
+{
+  "checkedOn": "2026-11-16",
+  "links": [
+    {
+      "id": "mlb-home",
+      "label": "Athletics on MLB.com",
+      "publisher": "MLB.com",
+      "url": "https://www.mlb.com/athletics",
+      "description": "Official club front door: schedule, tickets, and news.",
+      "region": "Official",
+      "verified": true
+    },
+    {
+      "id": "mlb-news",
+      "label": "Athletics news",
+      "publisher": "MLB.com",
+      "url": "https://www.mlb.com/athletics/news",
+      "description": "Official game stories and club news.",
+      "region": "Official",
+      "verified": true
+    },
+    {
+      "id": "mlb-roster",
+      "label": "Athletics roster",
+      "publisher": "MLB.com",
+      "url": "https://www.mlb.com/athletics/roster",
+      "description": "The official roster. Use this when a fan-page card and the active list disagree.",
+      "region": "Official",
+      "verified": true
+    },
+    {
+      "id": "mlb-vegas-homestand",
+      "label": "2026 Las Vegas homestand announcement",
+      "publisher": "MLB.com",
+      "url": "https://www.mlb.com/news/a-s-announce-2026-schedule-including-homestand-in-las-vegas",
+      "description": "MLB.com on the June 8–14, 2026 games at Las Vegas Ballpark in Summerlin, and the Strip park aimed at 2028.",
+      "region": "Official",
+      "verified": true
+    },
+    {
+      "id": "mlb-pipeline",
+      "label": "MLB Pipeline: Athletics prospects",
+      "publisher": "MLB Pipeline",
+      "url": "https://www.mlb.com/milb/prospects/athletics",
+      "description": "Official prospect rankings and reports. The shorter /prospects/athletics path redirects here.",
+      "region": "Prospects",
+      "verified": true
+    },
+    {
+      "id": "bref-ath",
+      "label": "Athletics franchise page",
+      "publisher": "Baseball-Reference",
+      "url": "https://www.baseball-reference.com/teams/ATH/",
+      "description": "Current franchise register. Oakland seasons remain under the OAK code, Philadelphia under PHA.",
+      "region": "Reference",
+      "verified": true
+    },
+    {
+      "id": "bref-oak",
+      "label": "Oakland Athletics register",
+      "publisher": "Baseball-Reference",
+      "url": "https://www.baseball-reference.com/teams/OAK/",
+      "description": "The Oakland years, 1968 through 2024.",
+      "region": "Reference",
+      "verified": true
+    },
+    {
+      "id": "bref-pha",
+      "label": "Philadelphia Athletics register",
+      "publisher": "Baseball-Reference",
+      "url": "https://www.baseball-reference.com/teams/PHA/",
+      "description": "The Philadelphia years, 1901 through 1954.",
+      "region": "Reference",
+      "verified": true
+    },
+    {
+      "id": "bref-2026",
+      "label": "2026 Athletics season",
+      "publisher": "Baseball-Reference",
+      "url": "https://www.baseball-reference.com/teams/ATH/2026.shtml",
+      "description": "Season page for the West Sacramento year, including the record, attendance, and the Summerlin games.",
+      "region": "Reference",
+      "verified": true
+    },
+    {
+      "id": "fangraphs",
+      "label": "Athletics team page",
+      "publisher": "FanGraphs",
+      "url": "https://www.fangraphs.com/teams/athletics",
+      "description": "Roster tools and analysis. Read it there; this site does not republish the tables.",
+      "region": "Analysis",
+      "verified": true
+    },
+    {
+      "id": "fangraphs-roster",
+      "label": "RosterResource depth chart",
+      "publisher": "FanGraphs",
+      "url": "https://www.fangraphs.com/roster-resource/depth-charts/athletics",
+      "description": "A maintained depth chart. Useful next to, not instead of, the official roster.",
+      "region": "Analysis",
+      "verified": true
+    },
+    {
+      "id": "br",
+      "label": "Athletics team page",
+      "publisher": "Bleacher Report",
+      "url": "https://bleacherreport.com/the-athletics",
+      "description": "Bleacher Report's Athletics landing page. The older /oakland-athletics address redirects here.",
+      "region": "National",
+      "verified": true
+    },
+    {
+      "id": "athletic",
+      "label": "The Athletic: Athletics",
+      "publisher": "The Athletic",
+      "url": "https://www.nytimes.com/athletic/mlb/team/athletics/",
+      "description": "Subscription reporting. theathletic.com/mlb/team/athletics/ redirects to this page.",
+      "region": "National",
+      "verified": true
+    },
+    {
+      "id": "chronicle",
+      "label": "San Francisco Chronicle Athletics",
+      "publisher": "San Francisco Chronicle",
+      "url": "https://www.sfchronicle.com/sports/athletics/",
+      "description": "Bay Area coverage of the club.",
+      "region": "Bay Area",
+      "verified": true
+    },
+    {
+      "id": "examiner",
+      "label": "San Francisco Examiner sports",
+      "publisher": "San Francisco Examiner",
+      "url": "https://www.sfexaminer.com/sports/",
+      "description": "The Examiner sports desk. Athletics items there are mostly individual stories.",
+      "region": "Bay Area",
+      "verified": true,
+      "note": "This sports section returned HTTP 200 on November 16, 2026. Guessed Athletics-only paths were not confirmed (HTTP 429), so this is the sports section rather than a verified team hub."
+    },
+    {
+      "id": "bee",
+      "label": "Sacramento Bee MLB",
+      "publisher": "The Sacramento Bee",
+      "url": "https://www.sacbee.com/sports/mlb/",
+      "description": "The Bee's baseball desk, which has covered Sutter Health Park and the temporary years.",
+      "region": "Sacramento",
+      "verified": false,
+      "note": "Not confirmed from this build. Requests to sacbee.com timed out on November 16, 2026. Search results show Athletics stories under /sports/mlb/, but the section index itself did not resolve here. Use the link with that caveat."
+    },
+    {
+      "id": "rvj",
+      "label": "Las Vegas Review-Journal Athletics",
+      "publisher": "Las Vegas Review-Journal",
+      "url": "https://www.reviewjournal.com/sports/athletics/",
+      "description": "Las Vegas coverage of the club and the ballpark project.",
+      "region": "Las Vegas",
+      "verified": true
+    }
+  ]
+}

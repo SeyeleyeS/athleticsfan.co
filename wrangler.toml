@@ -1,0 +1,35 @@
+# Pages project for athleticsfan.co.
+# Replace database_id after `npx wrangler d1 create athleticsfan`.
+# Preview id "DB" is the local Pages development key from the D1 + Pages docs.
+"$schema" = "./node_modules/wrangler/config-schema.json"
+name = "athleticsfan"
+pages_build_output_dir = "./dist"
+compatibility_date = "2026-11-16"
+compatibility_flags = ["nodejs_compat"]
+upload_source_maps = true
+
+# Password hashing uses PBKDF2. Give the invocation enough CPU for that work.
+# If a Free plan rejects this value, see the README before deleting it.
+[limits]
+cpu_ms = 30000
+
+[observability]
+enabled = true
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+
+[observability.traces]
+enabled = true
+head_sampling_rate = 0.01
+
+[vars]
+SITE_URL = "https://athleticsfan.co"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "athleticsfan"
+database_id = "00000000-0000-0000-0000-000000000000"
+preview_database_id = "DB"
+migrations_dir = "migrations"

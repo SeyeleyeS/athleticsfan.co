@@ -1,0 +1,37 @@
+{
+  "disclosure": "Some links on this page are affiliate or referral links. If you buy through them, athleticsfan.co may earn a commission from the partner. The price you pay does not change because you clicked. athleticsfan.co does not sell merchandise, does not run a checkout, and does not take payment. The entries below are placeholders until a real Fanatics affiliate URL replaces each one. Adding another partner later is a new object in this file, with its own partner name. No code change is required.",
+  "links": [
+    {
+      "partner": "Fanatics",
+      "category": "Jerseys",
+      "label": "Athletics jerseys",
+      "url": "https://www.fanatics.com/REPLACE-WITH-AFFILIATE-URL-jerseys",
+      "image": "",
+      "note": "Replace url with the Fanatics Athletics jerseys affiliate or referral link."
+    },
+    {
+      "partner": "Fanatics",
+      "category": "Caps",
+      "label": "Athletics caps",
+      "url": "https://www.fanatics.com/REPLACE-WITH-AFFILIATE-URL-caps",
+      "image": "",
+      "note": "Replace url with the Fanatics Athletics caps affiliate or referral link."
+    },
+    {
+      "partner": "Fanatics",
+      "category": "Tees",
+      "label": "Athletics t-shirts",
+      "url": "https://www.fanatics.com/REPLACE-WITH-AFFILIATE-URL-tees",
+      "image": "",
+      "note": "Replace url with the Fanatics Athletics tees affiliate or referral link."
+    },
+    {
+      "partner": "Fanatics",
+      "category": "Collectibles",
+      "label": "Athletics collectibles",
+      "url": "https://www.fanatics.com/REPLACE-WITH-AFFILIATE-URL-collectibles",
+      "image": "",
+      "note": "Replace url with the Fanatics Athletics collectibles affiliate or referral link."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "athleticsfan",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsx scripts/render-pages.ts && vite build",
+    "render": "tsx scripts/render-pages.ts",
+    "dev": "npm run render && vite --host 127.0.0.1",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.worker.json",
+    "hash-password": "tsx scripts/hash-password.ts",
+    "demo-seed": "tsx scripts/build-demo-seed.ts",
+    "db:migrate:local": "wrangler d1 migrations apply athleticsfan --local",
+    "db:migrate:remote": "wrangler d1 migrations apply athleticsfan --remote",
+    "db:demo": "wrangler d1 execute athleticsfan --local --file=./seeds/demo.sql",
+    "preview": "wrangler pages dev dist --port 8788",
+    "types": "wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261116.1",
+    "@fontsource/fraunces": "^5.3.0",
+    "@fontsource/source-sans-3": "^5.3.1",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0",
+    "wrangler": "^4.163.0"
+  }
+}

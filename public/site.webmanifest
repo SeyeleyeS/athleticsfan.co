@@ -1,0 +1,11 @@
+{
+  "name": "athleticsfan.co",
+  "short_name": "athleticsfan",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3eee4",
+  "theme_color": "#0f3d30",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
